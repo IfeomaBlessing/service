@@ -68,6 +68,7 @@ justify-content: center;
     transition:all 1s ease-in-out;
     background-color: rgba(0,0,0,0.8);
     box-sizing: border-box;
+    border-radius:10px;
 }
 .card-content{
   
@@ -184,6 +185,9 @@ justify-content: center;
  }
 
  @media screen and (max-width:600px) { 
+    .serviceHead{
+        font-size:2.5rem;
+    }
     .serviceWrapper{
        grid-template-columns:100%;
        place-items: center;

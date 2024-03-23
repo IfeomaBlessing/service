@@ -103,7 +103,8 @@ background:rgb(82, 9, 9);
     }
 }
 @media screen and (max-width:850px){
-    .aboutContent{
+    .aboutContent,
+    .info{
         flex-direction: column;
     }
     
@@ -137,4 +138,11 @@ background:rgb(82, 9, 9);
     .test-content{
         height:200px;
     }
+ }
+
+ @media screen and (max-width:600px) { 
+ .testimonial-container{
+    grid-template-columns:100%;
+    gap:20px;
+}
  }

@@ -22,3 +22,11 @@
     width:100%;
     border-radius:5px;
 }
+
+
+@media screen and (max-width:769px) { 
+.left, .right{
+    width:100%;
+}
+
+}
