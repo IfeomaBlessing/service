@@ -1,6 +1,5 @@
 .footer{
     background:rgb(82, 9, 9);
-    /* background:rgb(2, 52, 59); */
     padding:60px 10%;
     text-align: center;
 }
@@ -34,4 +33,15 @@ h6{
 }
 .foot{
     color:rgb(239, 192, 104);
+}
+
+@media screen and (max-width:600px) { 
+    .footer{
+        padding:60px 5%;
+        
+    }
+    .foot-link{
+        padding:8px 0.8rem;        
+    }
+    
 }

@@ -50,6 +50,7 @@ justify-content: center;
     border-radius: 10px;
     cursor: pointer;
     margin-top:2rem;
+    border-radius:10px;
 }
 
 .img-container img{
@@ -68,7 +69,7 @@ justify-content: center;
     transition:all 1s ease-in-out;
     background-color: rgba(0,0,0,0.8);
     box-sizing: border-box;
-    border-radius:10px;
+
 }
 .card-content{
   
@@ -185,8 +186,15 @@ justify-content: center;
  }
 
  @media screen and (max-width:600px) { 
+
     .serviceHead{
+        
+        background-image: linear-gradient(0deg,transparent,rgba(68, 75, 46, 0.7),
+        rgba(188, 237, 90, 0.1)),url(../../assets/sbg.jpg);
+        height:90vh;
+        -webkit-text-stroke: 1px white;
         font-size:2.5rem;
+        /* background-image: ; change the background image for phone size*/
     }
     .serviceWrapper{
        grid-template-columns:100%;
