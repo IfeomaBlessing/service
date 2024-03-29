@@ -192,6 +192,7 @@ justify-content: center;
         background-image: linear-gradient(0deg,transparent,rgba(68, 75, 46, 0.7),
         rgba(188, 237, 90, 0.1)),url(../../assets/sbg.jpg);
         height:90vh;
+        width: 100%;
         -webkit-text-stroke: 1px white;
         font-size:2.5rem;
         /* background-image: ; change the background image for phone size*/
@@ -205,5 +206,29 @@ justify-content: center;
         width:280px;
         height:320px;
     }
-    
+}
+
+    @media screen and (max-width:450px) { 
+
+        .serviceHead{
+            
+            background-image: linear-gradient(0deg,transparent,rgba(68, 75, 46, 0.7),
+            rgba(188, 237, 90, 0.1)),url(../../assets/sbg.jpg);
+            height:80vh;
+            width: 100%;
+            -webkit-text-stroke: 1px white;
+            font-size:2.5rem;
+            /* background-image: ; change the background image for phone size*/
+        }
+        .serviceWrapper{
+           grid-template-columns:100%;
+           place-items: center;
+           
+           }
+           .card{
+            width:280px;
+            height:300px;
+        }
+        
+        
 }
