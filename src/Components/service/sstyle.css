@@ -13,7 +13,6 @@
      background-size:cover;
      background-attachment:fixed;
     object-fit: cover;
-    font-size:3rem;
     word-spacing:1rem;
 }
 
@@ -106,10 +105,10 @@ justify-content: center;
 }
 
 
-.FAQ h3{
+.FAQ h2{
     text-align: center;
     color: rgb(82, 9, 9);
-    font-size: 2rem;
+    
 }
 .accordion-container{
     margin:30px auto;

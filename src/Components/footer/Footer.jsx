@@ -7,7 +7,7 @@ const Footer = () => {
   const clickMenu =()=> {setClicked(!clicked)}
   return (
     <div className='footer'>
-      <h3>Kachupp Global Trend</h3>
+      <h2>Kachupp Global Trend</h2>
 
       <div className="footer-link">
          <footer>
@@ -38,7 +38,7 @@ const Footer = () => {
       </div>
       <hr />
       <div className="foot">
-        <h6>&copy; 2024  Company name. All rights reserved</h6>
+        <h5>&copy; 2024  Kachupp Global Trend.  All rights reserved</h5>
       </div>
     </div>
   )

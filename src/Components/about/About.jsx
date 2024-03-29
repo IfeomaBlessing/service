@@ -26,7 +26,7 @@ const About = () => {
 
     <section className="testimonial">
     <p>Testimonials</p>
-    <h3 className='test-header'>What Our Clients Say</h3>
+    <h2 className='test-header'>What Our Clients Say</h2>
 
      <div className="testimonial-container">
      {Testimonial.map((x)=> (                

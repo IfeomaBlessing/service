@@ -7,19 +7,32 @@
     scroll-behavior: smooth;
     outline:none;
     border:none;
-}
-
-h2{
-    font-size: 2rem;
-}
-
-.section-p{
-   padding:60px 8%;
+    font-family: "Inter", sans-serif;
 }
 
 img{
     object-fit: cover;
 }
+h1{
+    font-size: 3rem;
+    font-weight:700;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight:600;
+}
+h3{
+    font-size:1rem;
+    font-weight:600;
+}
+p{
+    font-size:0.9rem;
+}
+.section-p{
+   padding:60px 8%;
+}
+
 button{outline: none;
     border: none;
     background:rgb(82, 9, 9);

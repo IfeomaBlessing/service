@@ -46,13 +46,13 @@ const Service = () => {
     </section>
 
     <section className="FAQ section-p">
-    <h3>Frequently Asked Questions</h3>
+    <h2>Frequently Asked Questions</h2>
     
      <div className="accordion-container">
      {Faq.map((x, currAccordion)=> (                
                    <div className="wrapper">
                    <div className={accordion === currAccordion ?"question active":"question"} onClick={()=>handleAccordion(currAccordion)}>
-                     <h4>{x.question}</h4>
+                     <h3>{x.question}</h3>
                      <div className="Acc-Icons">
                       {accordion === currAccordion ?(<FontAwesomeIcon icon={ faPlus}/>): (<FontAwesomeIcon icon={ faMinus} />)}
                      </div>
