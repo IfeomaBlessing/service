@@ -66,8 +66,8 @@ const Hero = () => {
 ))}
 
      <div className="sliderButtons">
-     <FontAwesomeIcon icon={ faArrowLeft} className='arrowIcon'onClick={prevSlide}/>
-     <FontAwesomeIcon icon={ faArrowRight} className='arrowIcon' onClick={nextSlide}/>
+     <FontAwesomeIcon icon={ faArrowLeft} className='icon'onClick={prevSlide}/>
+     <FontAwesomeIcon icon={ faArrowRight} className='icon' onClick={nextSlide}/>
      
      </div>
      </div>

@@ -24,7 +24,7 @@ const Navbar = ({scroll}) => {
     
             <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
            <li>
-                        <Link to= "Home" className='navlink'
+                        <Link to= "Home" className={scroll ? 'navlink scrolled' : 'navlink'}
                         activeClass='activeLink'
                         spy={true}
                         smooth={true}
@@ -33,32 +33,32 @@ const Navbar = ({scroll}) => {
                           Home</Link>
                     </li>
                            <li>
-                        <Link to="About" className='navlink'
+                        <Link to="About" className={scroll ? 'navlink scrolled' : 'navlink'}
                         activeClass='activeLink'
                         spy={true}
                         smooth={true}
                         duration={1000}
-                        offset={-70} onClick ={clickMenu}>
+                        offset={-60} onClick ={clickMenu}>
                           About</Link>
                     </li>
     
                     <li>
-                        <Link to="Services" className='navlink'
+                        <Link to="Services" className={scroll ? 'navlink scrolled' : 'navlink'}
                         activeClass='activeLink'
                         spy={true}
                         smooth={true}
                         duration={1000}
-                        offset={-50} onClick ={clickMenu}>
+                        offset={-60} onClick ={clickMenu}>
                           Services</Link>
                     </li>
     
                     <li>
-                        <Link to="Contact" className='navlink'
+                        <Link to="Contact" className={scroll ? 'navlink scrolled' : 'navlink'}
                         activeClass='activeLink'
                         spy={true}
                         smooth={true}
                         duration={1000}
-                        offset={-90} onClick ={clickMenu}>
+                        offset={-60} onClick ={clickMenu}>
                           Contact</Link>
                     </li>
     

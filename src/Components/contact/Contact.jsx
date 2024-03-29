@@ -15,18 +15,23 @@ const Contact = () => {
         </div>
         <div className="right">
             <div className="co">
-            <FontAwesomeIcon icon={ faAddressBook} className='arrowIcon'/>
+            <FontAwesomeIcon icon={ faAddressBook} className='icon con'/>
             <p>Lagos, Nigeria</p>
             </div>
 
             <div className="co">
-            <FontAwesomeIcon icon={ faPhone} className='arrowIcon'/>
+            <a href='tel:+234906573944'>
+            <FontAwesomeIcon icon={ faPhone} className='icon con'/>
              <p>+234906573944</p>
+             </a>
             </div>
+           
 
             <div className="co">
-            <FontAwesomeIcon icon={ faMailBulk} className='arrowIcon'/>
-         <p>gmail.com</p>
+            <a href="mailto:Feguson2000@yahoo.co.uk">
+            <FontAwesomeIcon icon={ faMailBulk} className='icon con'/>
+         <p>Feguson2000@yahoo.co.uk</p>
+         </a>
             </div>
         </div>
       </div>

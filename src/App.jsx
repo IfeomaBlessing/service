@@ -21,10 +21,13 @@ function App() {
   return (
     <>
       <Navbar scroll={scroll}/>
+      <div className="container">
       <Hero/>
       <About/>
       <Service/>
       <Contact/>
+      </div>
+ 
       <Footer/>
     </>
   )

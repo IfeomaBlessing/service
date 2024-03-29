@@ -3,6 +3,9 @@
     height:100vh;
     position: relative;
     overflow: hidden;
+
+        scroll-snap-align: start;
+        
 }
 .heroWrapper{
     width:100%;
@@ -86,7 +89,7 @@
   user-select:none;
   z-index: 10;
 }
-.arrowIcon{
+.icon{
     margin-right:1rem;
     width: 1rem;
     height: 1rem;
@@ -97,7 +100,7 @@
     cursor:pointer;
 }
 
-.arrowIcon:hover{
+.icon:hover{
     background:white;
     color:rgb(82, 9, 9) ;
 }

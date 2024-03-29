@@ -30,7 +30,7 @@ button{outline: none;
     word-spacing:3px;
     letter-spacing: 1px;
     border-radius:10rem;
-    margin-top:5px;
+    margin-top:2rem;
 }
 button:hover{
     color:rgb(82, 9, 9); 

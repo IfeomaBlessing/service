@@ -48,11 +48,15 @@ nav{
 }
 .navlink{
     color:white;
+    color:rgb(82, 9, 9);
     font-size:20px;
-    font-weight:bold;
+    font-weight:600;
     padding:8px 10px;
     cursor: pointer;
     position: relative;
+}
+.navlink.scrolled{
+    color: white;
 }
 .navlink:hover::after,
 .activeLink::after{
@@ -67,9 +71,10 @@ nav{
 }
 
 .navlink:hover,
-.activeLink
+.activeLink,
+.activeLink.scrolled
 {
-    color:rgb(239, 192, 104);
+    color:rgb(248, 202, 117);
 }
 
 .Menu{
@@ -96,7 +101,7 @@ nav{
         position:absolute;
         top:0%;
         left: 110%;
-        background:rgb(82, 9, 9);;
+        background:rgb(82, 9, 9);
         padding:80px 20px 30px 20px;
         z-index:-999;
         border-bottom-left-radius:10px;
