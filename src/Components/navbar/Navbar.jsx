@@ -2,6 +2,7 @@
 import React, {useState} from 'react'
 import {Link} from 'react-scroll'
 import '../navbar/navstyle.css'
+import logo from '../../assets/real-log.png'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faBars, faTimes} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -16,8 +17,7 @@ const Navbar = ({scroll}) => {
         <>      
          <header className={scroll ? 'header scrolled' : 'header'} >
            <div className='logo'>
-            <h3>logo/brand</h3>
-               {/* <img src={logo} alt='logo'/>  */}
+               <img src={logo} alt='logo'/> 
             </div>
             
          <nav>

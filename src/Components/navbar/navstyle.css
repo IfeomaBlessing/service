@@ -86,6 +86,7 @@ nav{
   }
 
 @media screen and (max-width:850px){
+   
     .nav-menu{
         display: flex;
         align-items:flex-start;
@@ -116,8 +117,14 @@ nav{
     }
 }
 
+@media screen and (max-width:600px){
+    header{
+        padding:1rem;
+    }
+}
 
 @media screen and (max-width:290px){
+ 
     .logo {
         
         padding-left:0.3rem;
