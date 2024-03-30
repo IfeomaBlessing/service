@@ -48,15 +48,11 @@ nav{
 }
 .navlink{
     color:white;
-    color:rgb(82, 9, 9);
     font-size:20px;
     font-weight:600;
     padding:8px 10px;
     cursor: pointer;
     position: relative;
-}
-.navlink.scrolled{
-    color: white;
 }
 .navlink:hover::after,
 .activeLink::after{
@@ -71,8 +67,7 @@ nav{
 }
 
 .navlink:hover,
-.activeLink,
-.activeLink.scrolled
+.activeLink
 {
     color:rgb(248, 202, 117);
 }
