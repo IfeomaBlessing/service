@@ -13,6 +13,7 @@
 .co, a{
     display:flex;
     align-items: center;
+    color: rgb(19, 18, 18);
     /* margin-bottom:2rem; */
 }
 .co{

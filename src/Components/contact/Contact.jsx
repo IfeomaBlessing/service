@@ -12,6 +12,18 @@ const Contact = () => {
         <div className="left">
           <h2>Chat To Our Friendly Team</h2>
           <p>We'd love to hear from you! Please get in touch</p>
+          <div className="social">
+            <h4>Follow Us</h4>
+            <div className="social-icons">
+            <a href="https://api.whatsapp.com/send?phone=+2347033827430" target='_blank'rel="noreferrer">
+                 <i class="fa-brands fa-facebook"></i>
+       </a>
+
+       <a href="https://www.linkedin.com/in/ifeoma-obodozie-1233241aa" target='_blank'rel="noreferrer">
+        <i class="fa-brands fa-instagram"></i>
+        </a>
+            </div>
+          </div>
         </div>
         <div className="right">
             <div className="co">

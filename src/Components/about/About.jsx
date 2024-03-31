@@ -1,6 +1,6 @@
 import React from 'react'
 import "../about/about.css"
-import image2 from '../../assets/image2.jpg'
+import img from '../../assets/AboutImg.jpg'
 import Testimonial from './Testimonials'
 
 const About = () => {
@@ -18,7 +18,7 @@ const About = () => {
         <div className="right-about">
 
       
-          <img src={image2} alt="image" className="bigImg"/>
+          <img src={img} alt="image" className="bigImg"/>
 
             
         </div>
