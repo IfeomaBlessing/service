@@ -7,22 +7,20 @@ header{
     top:0;
     height: 4rem;
     padding:2rem;
+    padding:2rem 2rem 2rem 7%;
     z-index:1000;
 }
-.logo h3{
-    color: white;
-}
+
 .scrolled{
     background:rgb(82, 9, 9);
-    /* background:rgb(129, 3, 125); */
-    /* background:rgb(2, 52, 59); */
 }
 .logo {
     position: relative;
-    width:50px;
+    width:40px;
     height:40px;
     top: 0;
-    padding-left:2rem;
+    background:white;
+    border-radius: 50%;
 }
 .logo img{
     width:100%;
@@ -76,11 +74,10 @@ nav{
     display: none;
     margin-left: 10px;
     cursor: pointer;
-}
-.Menu {
     font-size: 20px;
     padding: 10px;
-  }
+}
+
   .Menu .icons{
     color:white;
   }
@@ -97,7 +94,7 @@ nav{
         position:absolute;
         top:0%;
         left: 110%;
-        background:rgb(82, 9, 9);
+        background:rgb(82, 9, 9);;
         padding:80px 20px 30px 20px;
         z-index:-999;
         border-bottom-left-radius:10px;
@@ -111,6 +108,13 @@ nav{
         width:100%;
         margin-bottom:20px;
     }
+
+    .navlink:hover::after,
+.activeLink::after{
+    width:10%;
+    left:0;
+    transform: translateX(10%);
+}
     
     .Menu{
         display: block;
@@ -121,14 +125,10 @@ nav{
     header{
         padding:1rem;
     }
+
 }
 
 @media screen and (max-width:290px){
- 
-    .logo {
-        
-        padding-left:0.3rem;
-    }
    
    
   }
