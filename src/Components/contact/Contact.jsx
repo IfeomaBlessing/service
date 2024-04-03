@@ -16,13 +16,13 @@ const Contact = () => {
             <h4>Follow Us</h4>
             <div className="social-icons">
               <div>
-              <a href="https://api.whatsapp.com/send?phone=+2347033827430" target='_blank'rel="noreferrer">
+              <a href="https://www.facebook.com/Churchill ikpawona" target='_blank'rel="noreferrer">
                  <i class="fa-brands fa-facebook"></i>
             </a>
               </div>
            
            <div>
-           <a href="https://www.linkedin.com/in/ifeoma-obodozie-1233241aa" target='_blank'rel="noreferrer">
+           <a href="https://www.instagram.com/Churchill_ik" target='_blank'rel="noreferrer">
            <i class="fa-brands fa-instagram"></i>
         </a>
            </div>
@@ -38,9 +38,9 @@ const Contact = () => {
             </div>
 
             <div className="co">
-            <a href='tel:+234906573944'>
+            <a href='tel:+2347033372260'>
             <FontAwesomeIcon icon={ faPhone} className='icon con'/>
-             <p>+234906573944</p>
+             <p>+2347033372260</p>
              </a>
             </div>
            
