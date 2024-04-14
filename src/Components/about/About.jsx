@@ -9,11 +9,10 @@ const About = () => {
       <h1 className='aboutHeader'>Who We Are</h1>
     <section className="aboutContent">
         <div className="left-about" >
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Autem minus quos architecto quidem, ad aspernatur repellendus
-                 tempora culpa iure, laboriosam, sit recusandae aliquid incidunt eaque tempore natus optio minima. 
-                 Dolorum veritatis repudiandae saepe dignissimos iste minus ab est. Maiores perferendis nihil quos blanditiis quod laudantium, culpa odit architecto deserunt fuga sapiente ut error similique earum enim possimus iste harum corrupti qui rem reprehenderit? Ratione sed consequuntur harum quo aspernatur laboriosam ut blanditiis atque error. Tempore neque ipsa, ducimus dicta nesciunt in obcaecati tenetur placeat voluptas expedita. Similique, est error? Eaque harum inventore 
-                aperiam ullam porro laborum aspernatur nam doloremque facere?</p>
+            <p> <strong> Kachupp Global Trend </strong> is a conglomerate Company that has evolved into a choice Real Estate Developing,
+              Marketing Company,website and application development,
+              Business Development and training with a reputation for integrity, 
+              responsibility and excellence in service.</p>
         </div>
         <div className="right-about">
 
